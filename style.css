@@ -1,0 +1,52 @@
+* {
+    background-color: beige;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    color: blue;
+}
+
+a[href="receitas/receitasprontas.html"] {
+    color: green;
+}
+
+a[href="receitas/minhareceita.html"] {
+    color: crimson;
+}
+
+li:first-child {
+    color: rgb(123, 123, 205);
+}
+
+li:last-child {
+    color: rgb(51, 207, 191);
+}
+
+ul > li {
+    background-color: rgb(250, 223, 199);
+}
+
+ol > li {
+    background-color: rgb(248, 255, 224);
+}
+
+dl dd {
+    color:rgb(62, 98, 217)
+}
+
+h1+dl{
+    color: red
+}
+
+.links-externos {
+    background-color: rgb(145, 244, 142);;
+}
+
+.links-externos-videos {
+    background-color: rgb(228, 238, 145);
+}
